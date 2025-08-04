@@ -1,0 +1,43 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.unicodeHighlight.includeComments": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.fontSize": 14,
+    "git.enableSmartCommit": true,
+    "workbench.sideBar.location": "right",
+    "redhat.telemetry.enabled": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "dev.containers.dockerComposePath": "docker compose",
+    "rubyLsp.enabledFeatures": {
+        "codeActions": true,
+        "diagnostics": false,
+        "documentHighlights": true,
+        "documentLink": true,
+        "documentSymbols": true,
+        "foldingRanges": true,
+        "formatting": false,
+        "hover": true,
+        "inlayHint": true,
+        "onTypeFormatting": true,
+        "selectionRanges": true,
+        "semanticHighlighting": true,
+        "completion": true,
+        "codeLens": true,
+        "definition": true,
+        "workspaceSymbol": true,
+        "signatureHelp": true,
+        "typeHierarchy": true
+    },
+    "git.autofetch": true,
+    "editor.accessibilitySupport": "off",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "terminal.integrated.fontSize": 11,
+    "editor.stickyScroll.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.colorTheme": "Cherry Blossom Dimmed",
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false
+}

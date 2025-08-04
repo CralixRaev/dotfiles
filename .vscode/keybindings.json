@@ -1,0 +1,93 @@
+[
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeGroup",
+        "when": "activeEditorGroupEmpty && multipleEditorGroups"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "backspace cmd",
+        "command": "workbench.action.quickOpenWithModes"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "outline.focus"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-workbench.view.explorer",
+        "when": "editorFocus && viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "cmd+numpad1",
+        "command": "-workbench.view.explorer",
+        "when": "editorFocus && viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "explorer.openAndPassFocus",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-explorer.openAndPassFocus",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "explorer.openToSide",
+        "when": "explorerViewletFocus && foldersViewVisible && !inputFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-explorer.openToSide",
+        "when": "explorerViewletFocus && foldersViewVisible && !inputFocus"
+    }
+]
